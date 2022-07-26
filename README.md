@@ -12,7 +12,7 @@ Jetson Nano
 Jetson Nano compatible camera (USB camera recommended for ease of positioning)
 Camera stand (a simple DYI cardboard one will work well)
 
-#Install
+# Install
 $ git clone git@github.com:Launfal501/legosorter.git
 
 
