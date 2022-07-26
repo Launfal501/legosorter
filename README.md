@@ -9,7 +9,9 @@ One of the main efficiency losses in First Lego League teams is the time spent l
 
 ## Hardware requirements
 Jetson Nano
+
 Jetson Nano compatible camera (USB camera recommended for ease of positioning)
+
 Camera stand (a simple DYI cardboard one will work well)
 
 ## Install
