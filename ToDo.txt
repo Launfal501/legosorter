@@ -1,0 +1,13 @@
+
+Keyboard press to stop program
+	Press to pause? Press to use?
+
+Better model
+
+GitHub ReadMe
+	Dependencies
+	Installation guide
+	
+Comments 
+
+Clean up code?
