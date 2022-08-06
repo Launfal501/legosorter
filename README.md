@@ -26,16 +26,16 @@ https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-11-now-availa
 ```
 
 
-### clone all needed files
+### Clone repository
 ```
 $ git clone git@github.com:Launfal501/legosorter.git
 ```
 
-### navigate to directory
+### Navigate to directory
 ```
 $ cd legosorter
 ```
 
-### run the code
+### Run the code
 ```
 $ python3 main.py
