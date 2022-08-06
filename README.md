@@ -14,7 +14,7 @@ Jetson Nano compatible camera (USB camera recommended)
 
 Camera stand (a simple DYI cardboard one will work well)
 
-## Install
+## Installation
 ### Install needed dependencies
 JetCam for interface with the camera
 ```
