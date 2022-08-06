@@ -10,12 +10,12 @@ One of the main efficiency losses in First Lego League teams is the time spent l
 ## Hardware requirements
 Jetson Nano
 
-Jetson Nano compatible camera (USB camera recommended for ease of positioning)
+Jetson Nano compatible camera (USB camera recommended)
 
 Camera stand (a simple DYI cardboard one will work well)
 
 ## Install
-### Install needed dependencies warning the code will NOT function without these
+### Install needed dependencies
 JetCam for interface with the camera
 ```
 https://github.com/NVIDIA-AI-IOT/jetcam
