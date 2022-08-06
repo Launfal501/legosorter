@@ -20,7 +20,7 @@ JetCam for interface with the camera
 ```
 https://github.com/NVIDIA-AI-IOT/jetcam
 ```
-Pytorch and torchvision to run the neural network
+Pytorch and Torchvision to run the neural network
 ```
 https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-11-now-available/72048
 ```
