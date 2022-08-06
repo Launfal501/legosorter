@@ -1,10 +1,13 @@
-What needs to be installed:
+Dependencies needed to be installed:
 
 JetCam
 https://github.com/NVIDIA-AI-IOT/jetcam
 
 Pytorch + torchvision
 https://qengineering.eu/install-pytorch-on-jetson-nano.html
+
+
+Legacy:
 
 ipywidgets
 https://www.howtoinstall.me/ubuntu/18-04/python3-ipywidgets/
