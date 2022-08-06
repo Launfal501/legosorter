@@ -1,5 +1,5 @@
 # Lego Sorter
-Image classification of Lego pieces into sortable categories
+Image classification of Lego pieces into sortable categories.
 
 ## Description
 This system constitutes the first step of an autonomous Lego Technic piece sorter. The pieces are photographed and processed by an image classification neural network in real time, being classified into categories such as beam, peg, gear, axle, etc. Then, a mechanical component can transfer the piece to the correct container.
@@ -22,7 +22,7 @@ https://github.com/NVIDIA-AI-IOT/jetcam
 ```
 Pytorch and Torchvision to run the neural network
 ```
-https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-11-now-available/72048
+https://qengineering.eu/install-pytorch-on-jetson-nano.html
 ```
 
 
