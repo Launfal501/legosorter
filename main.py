@@ -24,13 +24,11 @@ TRANSFORMS = transforms.Compose([
     transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
 ])
 
-datasets = {}
+datasets = {} # check if this entire section is even needed
 for name in DATASETS:
     datasets[name] = ImageClassificationDataset('../data/classification/' + TASK + '_' + name, CATEGORIES, TRANSFORMS)
 
 print("{} task with {} categories defined".format(TASK, CATEGORIES))
-
-# DATA COLLECTION
 
 # initialize active dataset
 dataset = datasets[DATASETS[0]]
@@ -63,9 +61,9 @@ from utils import preprocess
 import torch.nn.functional as F
 
 state = "live"
-score_data = [0,] * len(dataset.categories)
+score_data = [0] * len(dataset.categories)
 
-def live(state, model, camera):
+def live(state, model, camera): # main function that executes. Stop/pause logic should affect this
     global dataset
     while state == "live":
         image = camera.value
@@ -79,7 +77,7 @@ def live(state, model, camera):
 
 print("live execution ready")
 
-# TRAINING AND EVALUATION
+# EVALUATION
 
 BATCH_SIZE = 8
 
@@ -93,4 +91,5 @@ execute_thread = threading.Thread(target=live, args=(state, model, camera))
 execute_thread.start()
 print("Model loaded and running")
 
-print("-------------")
+print("----------------")
+print("Wait up to 1 min" , end="\r")
