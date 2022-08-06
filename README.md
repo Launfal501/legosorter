@@ -15,7 +15,27 @@ Jetson Nano compatible camera (USB camera recommended for ease of positioning)
 Camera stand (a simple DYI cardboard one will work well)
 
 ## Install
+### Install needed dependencies warning the code will NOT function without these
+JetCam for interface with the camera
+```
+https://github.com/NVIDIA-AI-IOT/jetcam
+```
+Pytorch and torchvision to run the neural network
+```
+https://forums.developer.nvidia.com/t/pytorch-for-jetson-version-1-11-now-available/72048
+```
+
+
+### clone all needed files
 ```
 $ git clone git@github.com:Launfal501/legosorter.git
 ```
 
+### navigate to directory
+```
+$ cd legosorter
+```
+
+### run the code
+```
+$ python3 main.py
