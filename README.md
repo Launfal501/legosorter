@@ -16,7 +16,11 @@ Camera stand (a simple DYI cardboard one will work well)
 
 Recommended: white grid background (graph paper). In testing this improved the accuracy of the model by providing a reference point for individual piece size.
 
-![Alt text](suggested_set_up.jpg "Suggested set-up")
+<img
+  src="suggested_set_up.jpg"
+  alt="Alt text"
+  title="Suggested set-up"
+  style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 ## Installation
 ### Install needed dependencies
