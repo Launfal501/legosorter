@@ -30,7 +30,7 @@ https://qengineering.eu/install-pytorch-on-jetson-nano.html
 
 ### Clone repository
 ```
-$ git clone git@github.com:Launfal501/legosorter.git
+$ git clone https://github.com/Launfal501/legosorter.git
 ```
 
 ### Navigate to directory
