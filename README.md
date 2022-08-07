@@ -14,6 +14,8 @@ Jetson Nano compatible camera (USB camera recommended)
 
 Camera stand (a simple DYI cardboard one will work well)
 
+Recommended: white grid background (graph paper). In testing this improved the accuracy of the model by providing a reference point for individual piece size.
+
 ## Installation
 ### Install needed dependencies
 JetCam for camera interface
