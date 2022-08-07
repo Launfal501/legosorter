@@ -2,12 +2,13 @@
 Keyboard press to stop program
 	Press to pause? Press to use?
 
-Better model
+Better model - done
 
 GitHub ReadMe
-	Dependencies
-	Installation guide
+	Dependencies - done
+	Installation guide - done
+	Add image of set-up
 	
-Comments 
+Comments
 
-Clean up code?
+Clean up code
