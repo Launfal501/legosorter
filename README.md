@@ -20,7 +20,7 @@ Recommended: white grid background (graph paper). In testing this improved the a
   src="suggested_set_up.jpg"
   alt="Alt text"
   title="Suggested set-up"
-  style="display: inline-block; margin: 0 auto; max-width: 300px">
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
 
 ## Installation
 ### Install needed dependencies
