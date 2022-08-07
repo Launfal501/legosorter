@@ -16,7 +16,7 @@ Camera stand (a simple DYI cardboard one will work well)
 
 Recommended: white grid background (graph paper). In testing this improved the accuracy of the model by providing a reference point for individual piece size.
 
-![Alt text](legosorter/suggested_set_up.jpg "Suggested set-up")
+![Alt text](suggested_set_up.jpg "Suggested set-up")
 
 ## Installation
 ### Install needed dependencies
