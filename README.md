@@ -45,6 +45,7 @@ $ cd legosorter
 ### Run the code
 ```
 $ python3 main.py
+```
 
 ## Miscellaneous Details
 A modified RESNET18 neural network was used for a mix of optimal performance on the Jetson Nano as well as a high degree of accuracy. The model was trained for 15 epochs using a dataset containing 25 sample images for each category.
