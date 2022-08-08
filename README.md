@@ -2,7 +2,7 @@
 Image classification of Lego pieces into sortable categories
 
 ## Description
-This system constitutes the first step of an autonomous Lego Technic piece sorter. The pieces are photographed and processed by an image classification neural network in real time, being classified into categories such as beam, peg, gear, axle, etc. Then, a mechanical component can transfer the piece to the correct container
+This system constitutes the first step of an autonomous Lego Technic piece sorter. The pieces are photographed and processed by an image classification neural network in real time, being classified into the categories none, axle, beam, gear, and peg. Then, a mechanical component can transfer the piece to the correct container
 
 ## Background
 One of the main efficiency losses in First Lego League teams is the time spent looking for pieces. This can be minimized through careful sorting of pieces when taking apart old builds, but this also takes up time, and plus, no one wants to do it. The Jetson Nano system, in combination with a trivial robot, will be able to sort pieces into many discrete categories at a faster rate than humans without exceeding their error rate
@@ -45,3 +45,6 @@ $ cd legosorter
 ### Run the code
 ```
 $ python3 main.py
+
+## Miscellaneous Details
+A modified RESNET18 neural network was used for a mix of optimal performance on the Jetson Nano as well as a high degree of accuracy. The model was trained for 15 epochs using a dataset containing 25 sample images for each category.
